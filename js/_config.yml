@@ -1,0 +1,36 @@
+# Site settings
+title: Ganesh Karki
+description: "Ganesh Karki's Personal Blog"
+url: 'http://ganeshkarkigk.com'
+baseurl: ''
+profilepic: '/images/ganeshkarkigk.jpg'
+bkimage: '/images/milky-way-2695569_1920.jpg'
+google_analytics: UA-XXXXXX-X
+font_awesome: '/js/fontawesome.js'
+
+author:
+  name: 'Ganesh Karki'
+  email: ganeshkarkigk@gmail.com
+  twitter_username: ganeshkarkigk
+  facebook_username: ganeshkarkigk
+  github_username:  ganeshkarki
+  linkedin_username:  ganeshkarkigk
+#  meetup_name: Azure-Meetup-Rostock-MV
+
+# Build settings
+destination: _site
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+#plugins: ['jekyll-paginate']
+exclude: ['README.md']
